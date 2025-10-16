@@ -31,11 +31,7 @@ A execução pode ser feita manualmente, via *Task Scheduler*, ou integrada em p
 ## ⚙️ Fluxo de Funcionamento
 
 1. **Inicialização**  
-   O script desativa o eco do console (`@echo off`) e define variáveis de ambiente locais, como:
-   ```cmd
-   set "STATUS=login"
-   set "API_URL=http://192.168.15.102:8000/inventario"
-   ```
+   O script desativa o eco do console (`@echo off`) e define variáveis de ambiente locais
 
 2. **Coleta de Informações Locais**  
    Através do PowerShell embutido, ele coleta:
@@ -49,17 +45,17 @@ A execução pode ser feita manualmente, via *Task Scheduler*, ou integrada em p
    Cria um objeto com os campos:
    ```json
    {
-     "timestamp": "2025-10-16T14:00:00Z",
+     "timestamp": "hora",
      "user": "usuario",
-     "hostname": "DELLG15",
-     "domain": "PROJETA",
-     "fabricante": "Dell Inc.",
-     "modelo": "G15 5530",
-     "serial": "ABC123XYZ",
-     "so": "Windows 11 Pro",
-     "ip": "192.168.15.12",
-     "mac": "00-1A-2B-3C-4D-5E",
-     "status": "login"
+     "hostname": "nome_desktop",
+     "domain": "dominio",
+     "fabricante": "fabricante",
+     "modelo": "modelo",
+     "serial": "serial",
+     "so": "sistema_operacional",
+     "ip": "ip",
+     "mac": "mac",
+     "status": "desativo"
    }
    ```
 
