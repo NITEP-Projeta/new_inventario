@@ -53,8 +53,7 @@ Para rodar automaticamente no logon:
 ## 👤 Autor
 
 Desenvolvido por **Sala Técnica — Projeta Consultoria**  
-📧 contato@projeta.com.br  
-🏢 [https://www.projetaconsultoria.com.br](https://www.projetaconsultoria.com.br)
+📧 anderson.marley@projeta.com
 
 ---
 
