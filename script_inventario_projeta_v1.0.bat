@@ -3,7 +3,7 @@ setlocal
 
 :: Configurações
 set "STATUS=login"
-set "API_URL=http://192.168.15.102:8000/inventario"
+set "API_URL=http://0.0.0.0:8000/inventario"
 
 :: Informações básicas do ambiente
 set "USER=%USERNAME%"
